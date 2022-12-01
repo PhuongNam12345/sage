@@ -34,7 +34,4 @@
   });
 </script>
 
-@if ($_SERVER['SERVER_PORT'] == '3333')
-<!-- only run local -->
 <script defer src='@asset("scripts/app.js")'></script>
-@endif
