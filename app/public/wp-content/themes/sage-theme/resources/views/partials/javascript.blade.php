@@ -15,7 +15,7 @@
     };
   }
 
-  var AJAX_URL = "@php echo admin_url('admin-ajax.php');"\n"; @endphp";
+  var AJAX_URL = "@php echo admin_url('admin-ajax.php');'\n'; @endphp";
   var versionJs;
   var scriptVendor = [
     'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'
