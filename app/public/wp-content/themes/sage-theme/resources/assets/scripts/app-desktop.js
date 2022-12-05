@@ -11,5 +11,6 @@ import './modules/Header';
 import './modules/Menu';
 import './modules/Popup';
 import './modules/SelectC8';
+import './modules/TwoCol';
 
 console.log('App Desktop')

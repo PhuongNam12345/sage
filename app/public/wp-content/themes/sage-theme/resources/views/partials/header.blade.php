@@ -13,7 +13,7 @@
                     <button class="navbar-toggler hamburger-menu p-4 mt-0 cursor-pointer" type="button"
                         data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="icon-bar block bg-white relative ml-auto w-16 h-2"></span>
+                        <span class="icon-bar block bg-primary relative ml-auto w-16 h-2"></span>
                         <span class="icon-bar block bg-white relative ml-auto w-16 h-2 mt-3"></span>
                         <span class="icon-bar block bg-white relative ml-auto w-16 h-2 mt-3"></span>
                         <span class="sr-only">Open Menu</span>
