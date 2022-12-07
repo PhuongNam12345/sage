@@ -12,5 +12,7 @@ import './modules/Menu';
 import './modules/Popup';
 import './modules/SelectC8';
 import './modules/TwoCol';
+import './modules/SliderDemo';
+
 
 console.log('App Desktop')

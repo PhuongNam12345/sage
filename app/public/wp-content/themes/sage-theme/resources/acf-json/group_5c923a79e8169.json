@@ -33,6 +33,15 @@
                     "sub_fields": [],
                     "min": "",
                     "max": ""
+                },
+                "layout_63909e01a99af": {
+                    "key": "layout_63909e01a99af",
+                    "name": "mod_silder",
+                    "label": "Mod slider",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Module",
@@ -58,5 +67,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1669817101
+    "modified": 1670422017
 }
