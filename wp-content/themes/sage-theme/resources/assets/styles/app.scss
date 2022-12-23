@@ -1,0 +1,18 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+@import 'base/*.scss';
+@import 'core/lib/font-iconmoon';
+//  @import "slick-carousel/slick/slick.scss";  
+ @import 'core/lib/slick-theme';
+@import 'core/lib/popup';
+@import 'modules/global/*.scss';
+@import 'modules/*.scss';
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+@import '~slick-carousel/slick/slick';          
