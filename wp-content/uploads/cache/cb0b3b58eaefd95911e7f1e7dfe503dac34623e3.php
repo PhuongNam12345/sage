@@ -6,7 +6,8 @@
                 <div class="my-10 w-full items-center flex-col flex md:mr-5">
                     <img class="mb-8 min-w-600 xl:p-0 min-w-854 lg:min-w-726 2xl:min-w-975" src="<?php echo e($item->icon->url); ?>"
                         alt="<?php echo e($item->icon->alt); ?>">
-                    <p><?php echo e($item->content); ?></p>
+                    <h3><?php echo e($item->contentheading); ?></h3>
+                    <p><?php echo e($item->contentp); ?></p>
                     <?php if($item->link->url): ?>
                         <a class="no-underline text-red-200"  href="<?php echo e($item->link->url); ?>"
                             target="<?php echo e($item->link->target); ?>"><?php echo e($item->link->title); ?>
@@ -22,4 +23,5 @@
             
         </div>
     </section>
-
+<?php
+var_dump($data->module['content']);

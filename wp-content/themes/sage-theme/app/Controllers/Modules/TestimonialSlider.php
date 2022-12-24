@@ -10,7 +10,8 @@ class TestimonialSlider
         $pos=get_field('postion',$module->ID);
         $data = ['pos'];
         return (object) [           
-            'module' => $module         
+            'module' => $module,    
+            'testimonial1'=>$module['testimonial1']      
         ];
     }
 }

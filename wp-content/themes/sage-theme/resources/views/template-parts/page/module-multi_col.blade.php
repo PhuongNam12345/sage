@@ -6,7 +6,8 @@
                 <div class="my-10 w-full items-center flex-col flex md:mr-5">
                     <img class="mb-8 min-w-600 xl:p-0 min-w-854 lg:min-w-726 2xl:min-w-975" src="{{ $item->icon->url }}"
                         alt="{{ $item->icon->alt }}">
-                    <p>{{ $item->content }}</p>
+                    <h3>{{ $item->contentheading }}</h3>
+                    <p>{{ $item->contentp }}</p>
                     @if ($item->link->url)
                         <a class="no-underline text-red-200"  href="{{ $item->link->url }}"
                             target="{{ $item->link->target }}">{{ $item->link->title }}
@@ -21,4 +22,5 @@
             
         </div>
     </section>
-
+<?php
+var_dump($data->module['content']);

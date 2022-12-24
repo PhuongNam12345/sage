@@ -56,9 +56,10 @@ class App extends Controller
         $firestone = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logof2.png';
         $towns = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logof6.png';
         $whistle = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logof4.png';
+        $logoft = ($logo && $logo['url']) ? $logo['url'] : TEMPLATE_ASSETS_URL . '/images/footer/logoF.png';
         $alt = ($logo && $logo['alt']) ? $logo['alt'] : 'logo';
         $href = home_url();
-        return compact('lap','bg','url', 'aperity', 'cba', 'provi', 'salsify','fourpic', 'molerm', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
+        return compact('lap','logoft','bg','url', 'aperity', 'cba', 'provi', 'salsify','fourpic', 'molerm', 'untappd', 'advance', 'barringer', 'eagle', 'firestone', 'towns', 'whistle','alt', 'href');
     }
 
     public static function getBanner()

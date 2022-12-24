@@ -14,7 +14,7 @@
                     operational efficiencies, improve how people work, and meet fast-changing, unpredictable consumer
                     demand.
                 </p>
-                <button class="w-102 h-27 rounded-13 btn-brown text-base font-bold  lg:row">LEARN MORE</button>
+                <button class="rounded-2xl w-300 h-30 btn-brown text-base font-bold text-center">LEARN MORE</button>
             </div>
       
 
