@@ -1,4 +1,3 @@
-<div class="container"><h3>Module: Mod slider6icon</h3></div>
 
 <section class="  flex justify-center w-full">
     <div class="w-4/5 flex flex-col lg:flex-row 2xl:w-3/5">

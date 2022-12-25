@@ -6,7 +6,7 @@
       <div class=" mt-[10%] banner-left text-center flex text-white flex-col items-center lg:block lg:text-left lg:ml-[10%] 2xl:ml-[10%] 2xl:w-509 2xl:pt-18 lg:pt-22.5 xl:pt-37 2xl:mr-18 2k:2xl:ml-[10%]">
         <h2 >Unlock the Power of Connection</h2>
         <p >Connect & Grow Your Business with the Power of the Encompass Platform</p>
-        <button type="button" class="rounded-3xl   lg:ml-0  banner-button bg-primary text-white">ABOUT US</button>
+        <button type="button" class="rounded-3xl   lg:ml-0  banner-button bg-primary text-white text-[-15px]">ABOUT US</button>
       </div>
       <div class=" banner-right ">
         <img class=" mt-[10%] min-w-600 xl:p-0 min-w-854 lg:min-w-726 2xl:min-w-975" src="{!! App::getBanner()['BannerR'] !!}"

@@ -9,7 +9,8 @@ class Demo
         return (object) [
             'module' => $module,
             'title'=>$module['title'],
-            'decs'=>$module['decs']
+            'decs'=>$module['decs'],
+            'heading'=>$module['heading']
         ];
     }
 }

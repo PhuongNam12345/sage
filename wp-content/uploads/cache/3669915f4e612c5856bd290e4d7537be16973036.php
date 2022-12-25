@@ -1,10 +1,10 @@
 <section class=" flex justify-center w-full  ">
         <div class="w-4/5 flex flex-col lg:flex-row xl:w-4/5 2xl:w-3/5 ">
             <div class=" w-full col ">
-                <img class="min-w-[50px] " src="<?php echo App::getLogo()['fourpic']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
+                <img class="min-w-20 " src="<?php echo App::getLogo()['fourpic']; ?>" alt="<?php echo App::getLogo()['alt']; ?>">
             </div>
-            <div class="col w-full justify-center lg:row lg:w-4/5 xl:w-full ">
-                <h2>Connecting Your Business to What Matters Most</h2>
+            <div class=" mt-[10%] col w-full justify-center lg:row lg:w-4/5 xl:w-full ">
+                <h2>Connecting Your Business to Whs Matters Most</h2>
                 <p> At Encompass, we are committed to improving the way the beverage industry works. <br> <br>
                     How people make decisions, how they serve customers, and how they run their businesses—we bring it
                     all
@@ -14,7 +14,7 @@
                     operational efficiencies, improve how people work, and meet fast-changing, unpredictable consumer
                     demand.
                 </p>
-                <button class="rounded-2xl w-300 h-30 btn-brown text-base font-bold text-center">LEARN MORE</button>
+                <button class="rounded-2xl  btn-brown text-base font-bold text-center">LEARN MORE</button>
             </div>
       
 

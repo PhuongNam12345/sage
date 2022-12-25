@@ -7,21 +7,21 @@
   }
   html,
   body{
-    @apply overflow-x-hidden bg-gray-200 text-[18px];
+    @apply overflow-x-hidden bg-gray-200 text-lg;
   }
   h1,
   .h1 {
-    @apply text-h1 font-bold text-left text-[55px] ;
+    @apply  font-bold text-left  text-h55;
   }
 
   h2,
   .h2 {
-    @apply text-h2 font-bold  text-[36px];
+    @apply text-h2 font-bold  ;
   }
 
   h3,
   .h3 {
-    @apply text-h3 font-bold  text-left text-[24px]  ;
+    @apply  font-bold  text-h36  ;
   }
 
   h4,

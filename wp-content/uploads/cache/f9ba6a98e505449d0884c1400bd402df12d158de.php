@@ -1,6 +1,6 @@
 <section class=" flex justify-center w-full">
     <div class=" w-4/5 flex flex-col 2xl:w-3/5 ">
-        <div class=" text-center  ">
+        <div class=" text-center ">
             <h2>Enterprise ERP Solutions for Beverage & Food Industry</h2>
             <p>At Encompass, we’re revolutionizing the beverage and food supply chain
                  like no other ERP solution has before. By digitally connecting manufacturers,

@@ -13,6 +13,10 @@ const fontSize = {
   '7xl': ['4.5rem', { lineHeight: '1' }],
   '8xl': ['6rem', { lineHeight: '1' }],
   '9xl': ['8rem', { lineHeight: '1' }],
+  'h55': ['55px'],
+  'h36': ['36px'],
+  'h18': ['18px'],
+
   'h1': ['1.875rem', { lineHeight: '1.13333'}],
   'h2': [rem(24), { lineHeight: lineHeight(24, 32) }],
   'h3': ['1.25rem', { lineHeight: '1.13333' }],
